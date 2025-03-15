@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    height: 70px;
+    background: black;
+    border: 0px solid white;
+}
+
+header > img{
+    float: left;
+}
+
+header span{
+    float: left;
+    color: white;
+    margin-top: 10px;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    float: right;
+    display: inline;
+    width: 85%;
+}
+
+header nav li{
+    width: 4.5%;
+    float: left;
+    margin-left: 5%;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+input{
+    width: 185%;
+    float: left;
+    background-color: rgb(67, 64, 64);
+    color: white;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    height: 500px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+main section{
+    height: 400px;
+    width: 50%;
+    float: left;
+    border: 4.5px solid white;
+}
+
+main section section{
+    height: 200px;
+    border: 0px 8px 8px 8px solid white;
+}
+
+main + section section{
+    height: 400px;
+    width: 33.3333%;
+    float: left;
+    border: 8px solid white;
+}
+
+.date{
+    float: right;
+}
+
+.train{
+    background-image: url(../ohiotrain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.train p{
+    color: white;
+    margin-left: 15px;
+}
+
+.train h1{
+    margin-top: 260px;
+    margin-left: 15px;
+}
+
+.train span{
+    margin-left: 15px;
+}
+
+main span{
+    color: white;
+}
+
+main .date{
+    color: gray;
+    display: inline;
+    font-size: larger;
+}
+
+main h1{
+    color: white;
+}
+
+main h2{
+    font-weight: bold;
+    color: black;
+}
+
+main div{
+    height: 50px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+div > h2{
+    display: inline;
+}
+
+div span{
+    display: inline;
+}
+
+.school{
+    background-image: url(../Run\ Hide.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.school h2{
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.school span{
+    margin-left: 15px;
+}
+
+.scotland{
+    background-image: url(../sturgeon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scotland h2{
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.scotland span{
+    margin-left: 15px;
+}
+
+.pesticides{
+    background-image: url(../pest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pesticides h2{
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.pesticides span{
+    margin-left: 15px;
+}
+
+.pooh{
+    background-image: url(../winnie\ pooh.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pooh h2{
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.pooh span{
+    margin-left: 15px;
+}
+
+.thai{
+    text-align: left;
+}
+
+.bel{
+    text-align: left;
+}
+
+.ola{
+    text-align: left;
+}
+
+.thaipic{
+    object-fit: cover;
+    width: 100%;
+}
+
+.belpic{
+    object-fit: cover;
+    width: 100%;
+}
+
+.olapic{
+    object-fit: cover;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
