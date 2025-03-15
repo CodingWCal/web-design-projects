@@ -1,16 +1,16 @@
-#My Social Media Recreation Project: WIP
+# My Social Media Recreation Project: WIP
 
-This was a test of my own skills, to recreate a popular social media platform landing page.
+This was a test of my own skills, to recreate a popular social media platform landing page as a static site.
 
 Link to project: https://cvan-creations-social-media-clone.netlify.app/
 
-![](https://github.com/CodingWCal/web-design-projects/blob/main/Facebook%20Sign-in%20Page/fb-website-screenshot.png)
+Project Screenshot: ![](https://github.com/CodingWCal/web-design-projects/blob/main/Facebook%20Sign-in%20Page/fb-website-screenshot.png)
 
 --
 
-#How It's Made:
+# How It's Made:
 
-Tech used: HTML & CSS hosted on Netlify
+## Tech used: HTML & CSS hosted on Netlify
 
 Fun practice utilizing mark-up languages, really experimented with using different styling choices outside of my usual rotation such as floats. This posed a slight challenge for me to be comfortable using floats to position elements.
 
