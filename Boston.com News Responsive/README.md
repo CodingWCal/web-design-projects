@@ -12,7 +12,7 @@ Project Screenshot: ![](https://github.com/CodingWCal/web-design-projects/blob/m
 
 ### Tech used: HTML & CSS hosted on Netlify
 
-Had alot of fun with adding CSS positioning to each section of this webpage, especially with its somehwat unorthodox structure. It was such a surreal experience getting to work on a site that felt close to home, it really kept me motivated about seeing this project through from start to finish.
+Had alot of fun with adding CSS positioning to each section of this webpage, especially with its somewhat unorthodox structure. It was such a surreal experience getting to work on a site that felt close to home, it really kept me motivated about seeing this project through from start to finish.
 
 ### Future Optimizations:
 Will be continuosly updating this project and repo in near future with adding Responsiveness with media queries, to adapt this to any possible screen size without breaking.
