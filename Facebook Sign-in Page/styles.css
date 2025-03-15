@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+    background-color: #f5f6f7 ;
+}
+
+header{
+    border: 1px solid #1877f2;
+    background-color: #1877f2;
+    color: white;
+    height: 100px;
+    
+}
+
+header > h3{
+    float: left;
+}
+
+nav{
+    max-width: 100%;
+}
+
+header nav ul{
+    max-width: 100%;
+}
+
+header nav li{
+    list-style: none;
+    float: right;
+    width: 16.5%;
+    margin-right: 9px;
+    margin-top: 8px;
+}
+
+.logbutton{
+    width: 140px;
+    height: 39px;
+    background-color: #0e52b0;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.logbutton > a{
+    color: white;
+}
+
+
+.forgot {
+    font-size: smaller;
+    display: block;
+    padding-top: 25px;
+    margin-top: 25px;
+    left: 78%;
+    position: absolute;
+    color: white;
+}
+
+.topinfo1{
+    height: 40px;
+    width: 310px;
+    border-radius: 7px;
+}
+
+.fblogo{
+    display: inline;
+    margin-left: 120px;
+    padding-left: 120px;
+    font-size: 31px;
+    font-weight: bolder;
+}
+
+.fblogo > a{
+    color: white;
+}
+
+.leftside{
+    float: left;
+    width: 50%;
+    height: 800px;
+}
+
+.headlinefb{
+    height: 30%;
+}
+
+h1{
+    text-align: left;
+    margin: 20px;
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 72%;
+}
+
+.leftsidefeatures{
+    height: 110px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.leftsidespan{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.icons{
+    padding-left: 200px;
+    margin-right: 0;
+    float: left;
+}
+
+.boldfeats{
+    font-weight: bolder;
+}
+
+.rightside{
+    float: right;
+    width: 50%;
+    height: 800px;
+}
+
+.signuptitle{
+    padding: 0px;
+    height: 6%;
+}
+
+.signuptitle > h2{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.signupspan{
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: lightslategray;
+    font-weight: bold;
+
+}
+
+.signupforminfo1{
+    width: 70%;
+}
+
+.namerow{
+    width: 50%;
+    float: left;
+    display: inline;
+}
+
+.namerow > input{
+    width: 90%;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.numberemailrow{
+    width: 60%;
+    display: inline;
+}
+
+.numberemailrow > input{
+    width: 95%;
+    border-radius: 7px;
+    height: 50px;
+    border-color: lightgrey;
+}
+
+.newpasswordrow{
+    width: 60%;
+    display: inline;
+}
+
+.newpasswordrow > input{
+    width: 95%;
+    height: 50px;
+    border-radius: 7px;
+    border-color: lightgrey;
+}
+
+.rightside input{
+    margin: 5px;
+    padding: 5px;
+    border-color: lightgrey;
+}
+
+.signupforminfo2{
+    width: 96%;
+    padding-top: 18px;
+}
+
+.birthdayformsec{
+    display: block;
+}
+
+.birthdayformsec select{
+    float: left;
+    display: inline;
+    border-radius: 7px;
+    height: 46px;
+    width: 30%;
+    margin-right: 21px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-color: lightgrey;
+    font-size: 17px;
+}
+
+.birthdayformsec select > option{
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.birthdaytitle{
+    color: #70767e;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.gendertitle{
+    display: block;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #70767e;
+    font-weight: bold;
+}
+
+.genderformsec input{
+    float: right;
+    display: inline;
+    border: 1px solid black;
+    height: 35px;
+}
+
+.genderformsec label{
+    float: left;
+    margin: 6px;
+    padding: 6px;
+}
+
+.genderoptions{
+    float: left;
+    border: 1px solid black;
+    width: 30%;
+    background-color: white;
+    border-radius: 7px;
+    margin-right: 21px;
+    border-color: lightgrey;
+}
+
+
+.signupterms{
+    text-align: left;
+    padding-top: 17px;
+    margin-top: 17px;
+}
+
+.undersigninfo > .signupterms > p.signupblurb {
+    padding-top: 15px;
+    margin-top: 15px;
+    text-align: left;
+    color: lightslategray;
+    font-size: 15px;
+}   
+
+a{
+    text-decoration: none;;
+}
+
+.signbutton{
+    text-align: center;
+    width: 100%;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.signbuttonbox{
+    width: 200px;
+    background-color: #00a400;
+    color: white;
+    font-weight: bolder;
+    font-size: 19px;
+    height: 40px;
+    border-radius: 7px;
+    margin: auto;
+    padding: auto;
+    border-color: #00a400;
+}
+
+.signbuttonbox > a{
+    color: white;
+}
+
+.createpage{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.createpage span{
+    font-weight: bold;
+}
