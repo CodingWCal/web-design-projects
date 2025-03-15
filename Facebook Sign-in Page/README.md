@@ -8,14 +8,14 @@ Project Screenshot: ![](https://github.com/CodingWCal/web-design-projects/blob/m
 
 --
 
-# How It's Made:
+## How It's Made:
 
-## Tech used: HTML & CSS hosted on Netlify
+### Tech used: HTML & CSS hosted on Netlify
 
 Fun practice utilizing mark-up languages, really experimented with using different styling choices outside of my usual rotation such as floats. This posed a slight challenge for me to be comfortable using floats to position elements.
 
-Future Optimizations:
+### Future Optimizations:
 Will be updating this project and repo in near future with adding Responsiveness with media queries, to adapt this to any screen size.
 
-Lessons Learned:
+### Lessons Learned:
 Learned how to better pre-visualize my layouts with floats in CSS and HTML. I know floats may seem outdated to some engineers, but I found it rewarding once everything fell into place as intended. Definitely an eye-opening creative process from start to finish.
