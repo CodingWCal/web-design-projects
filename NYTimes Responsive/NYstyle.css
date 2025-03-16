@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+* a{
+    text-decoration: none;
+    color: inherit;
+}
+
+* span{
+    font-size: smaller;
+    color: gray;
+}
+
+header {
+    border: .2px solid lightslategray;
+}
+
+button{
+    background-color: #6288a5;
+    color: white;
+    font-weight: bold;
+}
+
+.nav1{
+    border: .2px solid lightslategray;
+}
+
+.nav1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.NYT{
+    border: .2px solid lightslategray;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav2{
+    border: .2px solid lightslategray;
+
+}
+
+.nav2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav3{
+    border-top: 1px solid black;
+    border: .2px solid gray;
+
+}
+
+.nav3 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+/* End of Top Header */
+
+main{
+    display: flex;
+
+}
+
+.leftcolumn{
+    border: .2px solid lightslategray;
+    width: 20%;
+    padding: 20px;
+}
+
+.lefttextbox1 h4{
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+}
+
+.leftcolumn li{
+    padding-top: 10px;
+}
+
+.leftcolumn p{
+    font-size: medium;
+}
+
+.lefttextbox2{
+    padding-top: 20px;
+}
+
+/* End of Left */
+
+.midcolumn{
+    border: .2px solid lightslategray;
+    width: 40%;
+
+}
+
+.midtop{
+    border: .2px solid lightslategray;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.midtop span{
+    padding: 5px;
+    text-align: center;
+}
+
+
+.midtop p{
+    padding: 10px;
+
+}
+
+.vid{
+    width: 100%;
+    display: block;
+    padding: 15px;
+}
+
+.video[poster]{
+    object-fit: cover;
+}
+
+.vid span{
+    display: block;
+    width: 100%;
+}
+
+.midbot{
+    border: .2px solid lightslategray;
+}
+
+.trumpconferenceheadline{
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+}
+
+.conferencetext{
+    padding: 0px 10px 10px 10px;
+
+}
+
+.midlist{
+    border: .2px solid lightslategray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.midlist ul{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+    font-size: small;
+    gap: 25%;
+}
+
+.trumpcede{
+    border: .2px solid lightslategray;
+
+}
+
+
+/* End of Middle */
+
+.rightcolumn{
+    border: .2px solid lightslategray;
+    width: 40%;
+
+}
+
+.opiniontitle{
+    border: .2px solid lightslategray;
+    text-align: center;
+
+}
+
+.opinionbox{
+    border: .2px solid lightslategray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opinionarticles{
+    width: 50%;
+    height: 50%;
+    border-left: .2px solid lightslategray;
+
+}
+
+.opinionarticles li{
+    font-weight: bold;
+}
+
+.rightbot{
+    border: .2px solid lightslategray;
+    display: flex;
+}
+
+.rightbot h6{
+    font-size: small;
+}
+
+.misc{
+    width: 100%;
+    display: flex;
+}
+
+.miscarticles{
+    border: .2px solid lightslategray;
+    width: 50%;
+}
+
+.miscarticles img{
+    flex-wrap: wrap;
+}
+
+.asidefacts{
+    border: .2px solid lightslategray;
+
+}
+
+.asidearticles{
+    border: .2px solid lightslategray;
+}
+
+/* end of right */
+
+
+
+/* start of media queries - laptop */
+
+
+@media (max-width: 1024px){
+    .nav3 li{
+        font-size: small;
+    }
+
+    .midlist ul{
+        gap: 4%;
+    }
+
+}
+
+
+/* start of - Tablet */
+
+
+@media (max-width: 768px){
+    .nav3 li{
+        font-size: x-small;
+    }
+
+    .leftcolumn{
+        width: 100%;
+    }
+
+    .lefttextbox2{
+        padding: none;
+    }
+
+    .rightcolumn{
+        width: 100%;
+    }
+
+    .midcolumn{
+        width: 100%;
+    }
+
+    .midlist > ul{
+        display: none;
+    }
+
+}
+
+/* start of mobile */
+
+@media (max-width: 425px){
+    header{
+        width: 100%;
+    }
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2 .notimport{
+        display: none;
+
+    }
+
+    .NYT{
+        width: 100%;
+        border:  1px solid black;
+    }
+
+    .nav3{
+        display: none;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftcolumn{
+        width: 100%;
+    }
+
+    .midcolumn{
+        width: 100%;
+    }
+
+    .rightcolumn{
+        width: 100%;
+    }
+}
+
+/* end of media queries */
