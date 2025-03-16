@@ -1,4 +1,4 @@
-# Rock Paper Scissors Project: WIP
+# Rock Paper Scissors Game Project: WIP
 
 This was fun and creative project to make a Rock Paper Scissors game where users/players can compete against a bot, while keeping score.
 
