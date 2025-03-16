@@ -1,6 +1,6 @@
 # My News Site Recreation Project: WIP
 
-Another static website practice, this time focusing on recreating a major news site landing page highlighting current political events
+Another static website practice, with focus on recreating a major news site landing page highlighting current political events.
 
 Link to project: https://cvan-creations-nyt.netlify.app/
 
