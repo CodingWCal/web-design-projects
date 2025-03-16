@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game Project: WIP
 
-This was fun and creative project to make a Rock Paper Scissors game where users/players can compete against a bot, while keeping score.
+This was a creative project to make a Rock Paper Scissors game where users/players can compete against a bot, while keeping score.
 
 Link to project: https://cvan-creations-rock-paper-scissors.netlify.app/
 
