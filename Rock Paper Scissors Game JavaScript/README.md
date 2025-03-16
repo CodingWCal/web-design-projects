@@ -17,4 +17,4 @@ It was a very fruitful excercise getting to use JavaScript and Math.random() sta
 Will be continuously updating this project and repo in near future with additional media queries and fixing content spacing, to adapt this to any possible screen size without break points.
 
 ### Lessons Learned:
-I thoroughly enjoyed making this game in all it's stages. Playing around with Math.random() and having the thrill of testing my game out felt so rewarding. Can't wait to make more games in the future, adding more complexity as I go.
+I thoroughly enjoyed making this game in all stages. Playing around with Math.random() and having the thrill of testing my game out felt so rewarding. Can't wait to make more games in the future, adding more complexity as I go.
